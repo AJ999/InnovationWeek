@@ -4,6 +4,15 @@
 }
 
 <h2>Visualizing Meetme Meetings</h2>
-
-
+<div id="container"></div>
+<script src="~/Scripts/sigma.js"></script>
+<script src="~/Scripts/plugins/sigma.parsers.json.min.js"></script>
+<script>
+  sigma.parsers.json('/Content/graphdata.json', {
+    container: 'container',
+    settings: {
+        defaultNodeColor: '#dc0177'
+    }
+  });
+</script>
 
