@@ -28,3 +28,15 @@ textarea {
     height: 600px;
     margin: auto;
 }
+
+
+.primary.btn {
+    background: #A3135A;
+    color: #fff;
+}
+
+.jumbotron {
+background-image: url("/images/jumbotron_bg.jpg");
+background-size: cover;
+color: #f8dc7a;
+}
