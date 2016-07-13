@@ -3,19 +3,48 @@
     ViewBag.Title = "Visualizing Meetme Meetings";
 }
 
+<style>
+    .chart rect {
+        fill: steelblue;
+    }
+
+    .chart text {
+        fill: white;
+        font: 10px sans-serif;
+        text-anchor: end;
+    }
+
+    circle {
+        fill: rgb(31, 79, 80);
+        fill-opacity: .75;
+        stroke: rgb(31, 119, 80);
+        stroke-width: 1px;
+    }
+
+    .leaf circle {
+        fill: #ff7f0e;
+        fill-opacity: 1;
+    }
+
+    text {
+        font: 10px sans-serif;
+    }
+
+    .link {
+        stroke: #999;
+        stroke-opacity: .6;
+    }
+</style>
+
 <h2>Visualizing Meetme Meetings</h2>
 
 A visualisation of the meetings taken place during ITW 2014-2016
 <br/>
-<div id="container"></div>
-<script src="~/Scripts/sigma.js"></script>
-<script src="~/Scripts/plugins/sigma.parsers.json.min.js"></script>
-<script>
-  sigma.parsers.json('/Content/graphdata.json', {
-    container: 'container',
-    settings: {
-        defaultNodeColor: '#dc0177'
-    }
-  });
-</script>
 
+
+<svg class="chart"></svg>
+<script src="~/Scripts/main-d3.js"></script>
+<script type="text/javascript">
+
+    main("/Content/Federal_BudgetData.csv");
+</script>
