@@ -1,17 +1,17 @@
 Company1,Company2,,Total Meetings
-Vodafone,BT,,31
-John doe ,BT,,6
-Jane doe ,BT,,5
-Lisa doe ,BT,,3
-Bob doe,BT,,5
-Tony doe ,BT,,3
-John doe ,Vodafone,,6
-Jane doe ,Vodafone,,5
-Lisa doe ,Vodafone,,3
-Bob doe,Vodafone,,5
-Tony doe ,Vodafone,,3
-John doe ,Megaphone,,6
-Jane doe ,Megaphone,,5
-Lisa doe ,Megaphone,,3
-Bob doe,Megaphone,,5
-Tony doe ,Megaphone,,3
+BT,Vodafone,,31
+BT,John doe ,,6
+BT,Jane doe ,,5
+BT,Lisa doe ,,3
+BT,Bob doe,,5
+BT,Tony doe ,,3
+Vodafone,John doe ,,6
+Vodafone,Jane doe ,,5
+Vodafone,Lisa doe ,,3
+Vodafone,Bob doe,,5
+Vodafone,Tony doe ,,3
+Megaphone,John doe ,,6
+Megaphone,Jane doe ,,5
+Megaphone,Lisa doe ,,3
+Megaphone,Bob doe,,5
+Megaphone,Tony doe ,,3
