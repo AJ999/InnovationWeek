@@ -40,7 +40,7 @@ function main(file) {
                     }
                 });
 
-                root = unflatten(rows, "FY11 Federal Budget");
+                root = unflatten(rows, "ITW 2016");
 
                 var lines = d3.svg.line(); // unused !
                 var nodes = galaxy.nodes(root);
