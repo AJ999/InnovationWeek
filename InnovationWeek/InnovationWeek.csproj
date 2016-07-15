@@ -284,6 +284,8 @@
     <Content Include="Views\DataVisualization\Index.cshtml" />
     <Content Include="Views\AutoSuggest\Index.cshtml" />
     <Content Include="Views\CapacityCommunity\Index.cshtml" />
+    <Content Include="Views\DataVisualization\Data2.cshtml" />
+    <Content Include="Views\DataVisualization\Data3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

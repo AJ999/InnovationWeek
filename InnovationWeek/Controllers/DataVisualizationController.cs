@@ -13,5 +13,14 @@ namespace InnovationWeek.Controllers
         {
             return View();
         }
+        public ActionResult Data2()
+        {
+            return View();
+        }
+
+        public ActionResult Data3()
+        {
+            return View();
+        }
     }
 }
