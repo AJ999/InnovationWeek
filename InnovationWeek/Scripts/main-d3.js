@@ -14,7 +14,7 @@ var names;
 var rows;
 
 var diameter = Math.max(Math.min(height, width), 100),
-    format = d3.format("$,.0f");
+    format = d3.format("0f");
 
 var galaxy = d3.layout.galaxy()
     .size([width, height])
@@ -85,7 +85,7 @@ function main(file) {
                 ;
                 node.append("title")
                     .text(function (d) {
-                        return d.name + ": " + format(d.value) + "B";
+                        return d.name + ": " + format(d.value) + " Meetings";
                     })
                 ;
                 node.append("circle")
