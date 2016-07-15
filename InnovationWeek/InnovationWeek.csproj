@@ -228,6 +228,8 @@
     </Content>
     <Content Include="Content\graphdata.json" />
     <Content Include="Content\Data.csv" />
+    <Content Include="Content\Data2.csv" />
+    <Content Include="Content\Data3.csv" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\d3.js" />
     <Content Include="Scripts\galaxy.js" />
